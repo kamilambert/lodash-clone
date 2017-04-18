@@ -1,5 +1,5 @@
 let expect = require ('chai').expect
-let add = require ('../src/add')
+let add = require ('../../src/Math/add')
 
 describe('add()', () => {
   it('adds two numbers', () => {
