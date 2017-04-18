@@ -1,5 +1,5 @@
 let expect = require ('chai').expect
-let _slice = require ('../src/slice')
+let _slice = require ('../src/Array/slice')
 
 describe('_slice()', () => {
   it('Creates a slice of array from start up to but now including end', () => {

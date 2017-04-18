@@ -1,5 +1,5 @@
 let expect = require ('chai').expect
-let _indexOf = require ('../src/indexOf')
+let _indexOf = require ('../src/Array/indexOf')
 
 describe('_indexOf()', () => {
   it('Gets the index at which the first occurrence of value is found in array', () => {
