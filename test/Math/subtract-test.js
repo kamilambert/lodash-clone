@@ -1,5 +1,5 @@
 let expect = require ('chai').expect
-let _subtract = require ('../src/Math/subtract')
+let _subtract = require ('../../src/Math/subtract')
 
 describe('_subtract()', () => {
   it('subtract two numbers', () => {
