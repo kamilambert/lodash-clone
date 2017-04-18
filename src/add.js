@@ -1,6 +1,6 @@
-let add = (x,y) => {
+let _add = (x,y) => {
   var result = x + y
   return result
 }
 
-module.exports = add
+module.exports = _add

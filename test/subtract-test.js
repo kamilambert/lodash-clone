@@ -1,11 +1,11 @@
 let expect = require ('chai').expect
-let subtract = require ('../src/subtract')
+let _subtract = require ('../src/subtract')
 
-describe('subtract()', () => {
+describe('_subtract()', () => {
   it('subtract two numbers', () => {
-    expect(subtract(10, 5)).to.deep.equal(5)
-    expect(subtract(-10, 5)).to.deep.equal(-15)
-    expect(subtract(-10, -5)).to.deep.equal(-5)
-    expect(subtract(0,0)).to.deep.equal(0)
+    expect(_subtract(10, 5)).to.deep.equal(5)
+    expect(_subtract(-10, 5)).to.deep.equal(-15)
+    expect(_subtract(-10, -5)).to.deep.equal(-5)
+    expect(_subtract(0,0)).to.deep.equal(0)
   })
 })

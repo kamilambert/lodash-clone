@@ -1,6 +1,6 @@
-let subtract = (x,y) => {
+let _subtract = (x,y) => {
   let answer = x - y
   return answer
 }
 
-module.exports = subtract
+module.exports = _subtract

@@ -1,4 +1,4 @@
-let slice = (array, start, end) => {
+let _slice = (array, start, end) => {
   let origArray = array,
       slicedArray = []
   for(let i = origArray[start-1]; i < end; i++) {
@@ -7,4 +7,4 @@ let slice = (array, start, end) => {
   return slicedArray
 }
 
-module.exports = slice
+module.exports = _slice
