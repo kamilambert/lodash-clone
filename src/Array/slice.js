@@ -1,10 +1,9 @@
-let _slice = (array, start, end) => {
-  let origArray = array,
-      slicedArray = []
-  for(let i = origArray[start-1]; i < end; i++) {
-    slicedArray.push(origArray[i])
+let slice = (array, start, end) => {
+  let slicedArray = []
+  for(let i = array[start-1]; i < end; i++) {
+    slicedArray.push(array[i])
   }
   return slicedArray
 }
 
-module.exports = _slice
+module.exports = slice

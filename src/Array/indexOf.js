@@ -1,11 +1,10 @@
-let _indexOf = (array, value) => {
-  let compareArray = array
-  for(let i = 0; i < compareArray.length; i++) {
-    if(value === compareArray[i]) {
+let indexOf = (array, value) => {
+  for(let i = 0; i < array.length; i++) {
+    if(value === array[i]) {
       return i
     }
   }
   return -1
 }
 
-module.exports = _indexOf
+module.exports = indexOf
