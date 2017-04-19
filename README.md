@@ -14,19 +14,19 @@ How to publish a package to NPM? (part of stretch goal)
 This goal is the sister goal of Common JS Utility Functions - Underscore.
 
 ## Specifications
-[ ] Tests and correct implementations exist for 32 (not all) utility functions from the Lodash library.
-[ ] Functions are organized into files with the same names as the function groups from Lodash (e.g. “Array”, “Collection”, “Lang”).
-[ ] All code is written with ES2015.
-[ ] Includes a README listing each method written and which file it is in.
-[ ] Code uses a linter and there are no linting errors.
-[ ] Code is well tested and all tests are passing.
-[ ] All dependencies are properly declared in package.json.
-[ ] All major features are added via pull requests with a clear description and concise commit messages.
-[ ] Every pull request has been reviewed by at least one other person.
-[ ] The artifact produced is properly licensed, preferably with the MIT license.
+[x] Tests and correct implementations exist for 32 (not all) utility functions from the Lodash library.<br>
+[x] Functions are organized into files with the same names as the function groups from Lodash (e.g. “Array”, “Collection”, “Lang”).<br>
+[x] All code is written with ES2015.<br>
+[x] Includes a README listing each method written and which file it is in.<br>
+[x] Code uses a linter and there are no linting errors.<br>
+[x] Code is well tested and all tests are passing.<br>
+[x] All dependencies are properly declared in package.json.<br>
+[x] All major features are added via pull requests with a clear description and concise commit messages.<br>
+[x] Every pull request has been reviewed by at least one other person.<br>
+[x] The artifact produced is properly licensed, preferably with the MIT license.
 
 ## Stretch
-[ ] An additional 16 utility functions have tests and correct implementations.
-[ ] Package is published to NPM.
-[ ] All source code has inline documentation using JSDoc format.
+[ ] An additional 16 utility functions have tests and correct implementations.<br>
+[ ] Package is published to NPM.<br>
+[ ] All source code has inline documentation using JSDoc format.<br>
 [ ] Documentation is published a simple GitHub Pages site (hint: use a builder like the documentation package).
