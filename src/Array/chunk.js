@@ -1,6 +1,6 @@
-let chunk = (array, size) => {
-  let sizeArray = []
-  let remainderArray = []
+const chunk = (array, size) => {
+  let sizeArray = new Array,
+      remainderArray = new Array
   for(let i = 0; i < size; i++) {
     sizeArray.push(array[i])
   }
