@@ -1,4 +1,4 @@
-# 37 Common JS Utility Functions [Lodash]
+# 32 Common JS Utility Functions [Lodash]
 
 ## Array
 

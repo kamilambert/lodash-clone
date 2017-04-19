@@ -27,6 +27,6 @@ This goal is the sister goal of Common JS Utility Functions - Underscore.
 
 ## Stretch
 [ ] An additional 16 utility functions have tests and correct implementations.<br>
-[ ] Package is published to NPM.<br>
+[x] Package is published to NPM.<br>
 [ ] All source code has inline documentation using JSDoc format.<br>
 [ ] Documentation is published a simple GitHub Pages site (hint: use a builder like the documentation package).
