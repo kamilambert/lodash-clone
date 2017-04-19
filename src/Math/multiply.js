@@ -1,4 +1,7 @@
-let multiply = (x,y) => {
+/**
+*multiply two numbers
+*/
+const multiply = (x,y) => {
   let answer = x * y
   return answer
 }

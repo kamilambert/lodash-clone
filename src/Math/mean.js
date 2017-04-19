@@ -1,3 +1,6 @@
+/**
+*computes mean value in array
+*/
 const mean = array => {
   let total = 0
   if(!Array.isArray(array) || !array.length) {

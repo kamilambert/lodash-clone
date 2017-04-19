@@ -1,4 +1,7 @@
-let add = (x,y) => {
+/**
+*adds two numbers
+*/
+const add = (x,y) => {
   var result = x + y
   return result
 }

@@ -1,3 +1,6 @@
+/**
+*computes sum value in array
+*/
 const sum = array => {
   let total = 0
   if(!Array.isArray(array) || !array.length) {

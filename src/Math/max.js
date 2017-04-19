@@ -1,3 +1,6 @@
+/**
+*computes max value in array
+*/
 const max = (array) => {
   let maximum = array[0]
   if (array.length === 0 || !Array) {
