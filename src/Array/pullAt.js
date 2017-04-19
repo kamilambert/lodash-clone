@@ -1,3 +1,6 @@
+/**
+* Gets the index at which the first occurrence of value is found in array
+*/
 const pullAt = (array, pulledIndex) => {
   let pulledAt = new Array
   if (!array.length) {

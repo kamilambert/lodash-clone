@@ -1,3 +1,6 @@
+/**
+* Removes all given values from array
+*/
 const pull = (array, value) => {
   let pulledArray = new Array
   if (!array.length) {

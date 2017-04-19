@@ -1,3 +1,6 @@
+/**
+ * Creates an array of elements split into groups of length size. If array cannot be split evenly, the final chunk will be the remaining elements.
+ */
 const chunk = (array, size) => {
   let sizeArray = new Array,
       remainderArray = new Array

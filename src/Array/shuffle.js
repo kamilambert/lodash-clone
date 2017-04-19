@@ -1,3 +1,6 @@
+/**
+* Creates an array of shuffled values
+*/
 const shuffle = (collection) => {
   let length = collection.length
   if (length === 0) {
