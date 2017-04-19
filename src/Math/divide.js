@@ -1,3 +1,6 @@
+/**
+*divides two numbers
+*/
 const divide = (x,y) => {
 
   let result = x / y

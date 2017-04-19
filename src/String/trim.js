@@ -1,3 +1,6 @@
+/**
+*Removes leading and trailing whitespace or specified characters from string.
+*/
 const trim = (string, characters) => {
   if (!characters) {
     let trimmedString = string.replace(/ /g,"")

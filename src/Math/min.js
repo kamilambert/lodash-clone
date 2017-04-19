@@ -1,3 +1,6 @@
+/**
+*computes min value in array
+*/
 const min = array => {
   let minimum = Infinity
   if (!array.length || !Array.isArray(array)) {
