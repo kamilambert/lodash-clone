@@ -1,3 +1,6 @@
+/**
+* Gets all but last element of array
+*/
 const initial = array => {
   let initialArray = []
   if (!array.length) {

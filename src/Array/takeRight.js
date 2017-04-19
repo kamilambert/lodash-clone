@@ -1,3 +1,6 @@
+/**
+* Creates a slice of array with n elements taken from the end
+*/
 const takeRight = (array, numberOfElements) => {
   if (!array.length) {
     return undefined

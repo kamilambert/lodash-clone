@@ -1,3 +1,6 @@
+/**
+* Creates a slice of array with n elements dropped from the end
+*/
 const dropRight = (array, size) => {
   let droppedArray = new Array
   if (!array.length) {

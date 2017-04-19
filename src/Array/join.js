@@ -1,3 +1,6 @@
+/**
+* Converts all elements in array into a string separated by separator
+*/
 const join = (array, connector) => {
   let output = new String
   if (!array.length) {

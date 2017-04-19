@@ -1,3 +1,6 @@
+/**
+* Creates a new array concatenating array with any additional arrays and/or values.
+*/
 const concat = (...arguments) => {
   let concatenatedArray = []
     for (let i = 0; i < arguments.length; i++){

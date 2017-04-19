@@ -1,3 +1,6 @@
+/**
+* Removes all given values from array
+*/
 const pullAll = (array, pulledElements) => {
   for (let j = 0; j < array.length; j++) {
     for (let i = 0; i < pulledElements.length; i++) {

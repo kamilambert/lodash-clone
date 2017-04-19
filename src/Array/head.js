@@ -1,3 +1,6 @@
+/**
+* Gets the first element of array
+*/
 const head = array => {
   if (!array.length) {
     return undefined

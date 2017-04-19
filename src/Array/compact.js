@@ -1,3 +1,6 @@
+/**
+* Creates an array with all falsey values removed. The values false, null, 0, "", undefined, and NaN are falsey.
+*/
 const compact = array => {
   let compactArray = new Array
   if (!array.length) {
