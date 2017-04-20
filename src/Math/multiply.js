@@ -1,9 +1,10 @@
 /**
 *multiply two numbers
 */
-const multiply = (x,y) => {
-  let answer = x * y
-  return answer
-}
+const multiply = (x,y) => x * y
 
 module.exports = multiply
+
+// Before refactoring:
+// let answer = x * y
+// return answer
