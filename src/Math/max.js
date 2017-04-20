@@ -3,7 +3,7 @@
 */
 const max = (array) => {
   let maximum = array[0]
-  if (array.length === 0 || !Array) {
+  if (!array.length || !Array) {
     return undefined
   }
   for (let i = 1; i < array.length; i++) {
